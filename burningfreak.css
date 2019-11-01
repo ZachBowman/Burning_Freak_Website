@@ -1,0 +1,132 @@
+@font-face
+  {
+  font-family: bignoodle;
+  src: url(big_noodle_titling.ttf);
+  }
+
+* {
+	padding:0;
+	margin:0;
+}
+
+a:link {
+	color: white;//#eb0000;
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+a:visited {
+	color: white;//#eb0000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;//#eb0000;
+	text-decoration: none;
+}
+
+a:active {
+	color: white;//#eb0000;
+	text-decoration: none;
+}
+
+body {
+	color: #FFFFFF;
+	font: 14px Impact, sans-serif;
+	padding: 13px;
+	background: #000000;
+	/*background-image: url(./.images/inflicted.png);*/
+	padding-bottom: 0px;
+}
+
+div {
+	
+}
+
+iframe {
+	border: 0px;
+}
+
+p.description {
+	
+}
+
+#container {
+	position: relative; 
+}
+
+#left {
+	position: absolute;
+	right: 50%;
+	margin-right: 364px;
+	
+}
+
+#center {	
+	position: absolute;
+	right: 50%;
+	margin-right: 38px;
+	top: 50%;
+	margin-top: 0 px;
+	
+}
+
+#right {
+	position: absolute;
+	left: 50%;
+	margin-left: -32px;
+	
+}
+
+#label {
+	position: absolute;
+	right: 50%;
+	margin-right: 464px;
+	
+}
+
+#panel_image {
+	width:  500px;
+	height: 350px;
+}
+
+#arrowleft
+  {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-left: 0px;
+	height: 350px;
+  }
+
+#arrowright
+  {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin-right: 0px;
+	height: 350px;
+  }
+
+#lower
+  {
+	position: absolute;	
+  }
+
+#music
+  {
+  background-color: rgba(128, 0, 0, 1.0);
+  font-color: white;
+  color: white;
+  font-family: bignoodle, impact, verdana;
+  font-size: 25pt;
+  padding: 20px;
+  display: none;
+  position: absolute;
+  left: 105px;
+  top: 100px;
+  z-index: 1;
+  width: 250px;
+  border-radius: 10px;
+  }			
